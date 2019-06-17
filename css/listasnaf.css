@@ -1,0 +1,217 @@
+
+.brand{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 3%;
+    border-radius: 15px;
+    margin-bottom: 4%;
+}
+
+
+.icon-brand{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+
+
+.glyphicon { margin-right:10px; }
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
+.panel-group .panel {
+    border-radius: 0px;
+
+}
+
+.post_item{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.link-asnaf{
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    text-decoration: none;
+    padding-right: 8px;
+
+}
+
+.link-asnaf:hover{
+    text-decoration: none;
+}
+
+.link-asnaf:any-link{
+    text-decoration: none !important;
+}
+
+table li{
+    list-style: none;
+}
+
+.imag-shap{
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.input-shap{
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+.btn-shap{
+    margin-top: 20%;
+    text-align: center;
+}
+
+.btn-shap a{
+    width: 60%;
+}
+
+.not{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(255,0,0,0.39);
+    text-align: center;
+    font-size: 1em;
+}
+
+
+.zerdasteh-h{
+    border-bottom: 1px solid green;
+    padding-bottom: 3%;
+    width: 30%;
+}
+
+.zerdasteh{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.zerdasteh a {
+    display: block;
+    border-radius: 50%;
+    text-decoration: none;
+    color: rgba(225, 28, 116, 0.85);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    transition-duration: 1s;
+
+
+}
+
+.zerdasteh a:focus {
+
+    color: white;
+    background-color: rgba(225, 28, 116, 0.85);
+}
+
+.zerdasteh a:hover{
+
+    color: white;
+    background-color: rgba(225, 28, 116, 0.85);
+    transition-duration: 1s;
+}
+
+.zerdasteh a img{
+    width: 70px;
+}
+
+.zerdasteh a span{
+    display: block;
+    margin: 4%;
+}
+
+@media ( min-width: 768px) and ( max-width: 991px) {
+    .imag-shap{
+        margin-top: 40%;
+    }
+    .input-shap{
+        width: 80%;
+    }
+
+    .btn-shap{
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+
+    .zerdasteh a span{
+        font-size: 0.8em;
+    }
+    .zerdasteh a img{
+        width: 50px;
+    }
+    .zerdasteh a {
+        height: 120px;
+        width: 123px;
+        padding-top: 18%;
+
+
+
+    }
+}
+
+
+@media (max-width: 767px) {
+    .input-shap{
+        width: 100%;
+    }
+
+    .imag-shap{
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    .btn-shap{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .link-asnaf{
+        font-size: 0.7em;
+    }
+
+
+    .zerdasteh-h {
+        width: 42%;
+        font-size: 0.8em;
+
+    }
+
+    .zerdasteh a img{
+        width: 30px;
+    }
+
+    .zerdasteh a span{
+        font-size: 0.6em;
+    }
+
+
+    .sidebar-menu-rtl li.sidebar-header{
+        font-size: 0.8em !important;
+    }
+
+    .sidebar-menu-rtl > li > a{
+        font-size: 0.8em;
+    }
+
+    .sidebar-menu-rtl .sidebar-submenu > li > a{
+        font-size: 0.7em !important;
+    }
+
+    .link-icon a:after{
+        top: 15px;
+        left: 9px;
+        width: 16px;
+        height: 16px;
+    }
+}
+

@@ -1,0 +1,78 @@
+
+
+.tabs {
+    position: relative;
+    margin: 2rem 0;
+    background: #1abc9c;
+
+
+
+}
+.tabs::before,
+.tabs::after {
+    content: "";
+    display: table;
+}
+.tabs::after {
+    clear: both;
+}
+.tab {
+    float: right;
+
+}
+.tab-switch {
+    display: none;
+}
+.tab-label {
+    position: relative;
+    display: block;
+    line-height: 2.75em;
+    height: 3em;
+    padding: 0 1.618em;
+    background: #1abc9c;
+    border-right: 0.125rem solid #16a085;
+    color: #fff;
+    cursor: pointer;
+    top: 0;
+    transition: all 0.25s;
+}
+.tab-label:hover {
+    top: -0.25rem;
+    transition: top 0.25s;
+}
+.tab-content{
+    min-height: 12rem;
+    position: absolute;
+    z-index: 1;
+    top: 2.75em;
+    left: 0;
+    padding:1.618rem 2.5rem;
+    background: #fff;
+    color: #757575;
+    opacity: 0;
+    transition: all 0.35s;
+    line-height: 2em;
+    text-align: justify;
+
+}
+.tab-switch:checked + .tab-label {
+    background: #fff;
+    color: #757575;
+    border-bottom: 0;
+    border-right: 0.125rem solid #fff;
+    transition: all 0.35s;
+    z-index: 1;
+    top: -0.0625rem;
+}
+.tab-switch:checked + label + .tab-content {
+    z-index: 2;
+    opacity: 1;
+    transition: all 0.35s;
+}
+
+.abut{
+    background: url("../img/about-us9.png") no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+}

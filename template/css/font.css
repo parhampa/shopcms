@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Iranian Sans';
+    src: url('../fonts/Iranian Sans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'B Yekan';
+    src: url('../fonts/BYekan.eot') format('eot'),
+    url('../fonts/BYekan.woff') format('woff'),
+    url('../fonts/BYekan.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'B Roya';
+    src: url('../fonts/BRoya.eot') format('eot'),
+    url('../fonts/BRoya.woff') format('woff'),
+    url('../fonts/BRoya.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'B Titr';
+    src: url('../fonts/BTitrBold.eot') format('eot'),
+    url('../fonts/BTitrBold.woff') format('woff'),
+    url('../fonts/BTitrBold.ttf') format('truetype');
+}
+

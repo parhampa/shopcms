@@ -1,0 +1,99 @@
+
+/*              resposiv                          */
+
+.navbar-toggle-custom {
+    background-color: #e11c74 !important;
+    padding: 8px 10px !important;
+    margin-top: 15px;
+}
+
+.navbar-toggle-custom .icon-bar {
+    background: #ffffff;
+    width: 19px;
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+
+
+    .img-brand img{
+        width: 200px;
+        height: 140px;
+    }
+
+    .brand{
+        margin-top: 6%;
+    }
+
+
+    .content-brand h3{
+        font-size: 1.6em;
+    }
+
+    .footer-brand{
+
+        font-size: 1.2em;
+    }
+}
+
+
+
+@media (max-width:767px){
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a{
+        text-align: center;
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+        background-color: rgba(225, 28, 116, 0.51);
+        border-radius: 5px;
+        border-top:1px solid  rgba(225, 28, 116, 0.51);
+    }
+
+    .img-brand img{
+        width: 140px;
+        height: 120px;
+    }
+
+    .brand{
+        background-color: rgba(0, 0, 0, 0.51);
+        margin-top: 10%;
+        margin-bottom: 17%;
+    }
+
+
+    .content-brand h3{
+        font-size: 1.3em;
+    }
+
+    .footer-brand{
+
+        font-size: 1em;
+    }
+
+    .email-brand{
+
+        font-size: 1em;
+    }
+    .nav > li{
+        float: right;
+    }
+
+
+    .address{
+        font-size: 0.7em;
+    }
+
+    .icon-footer{
+        width: 15px;
+        height: 19px;
+    }
+
+    .hed-footer h3{
+        font-size: 0.8em;
+    }
+
+}

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+figure {
+    margin: 0 !important;
+}
+
+.pic-wrapper {
+
+    width: 100%;
+    overflow: hidden;
+}
+
+figure {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    opacity: 0;
+    /*animation*/
+
+    animation: slideShow 15s linear infinite 0s;
+    -o-animation: slideShow 15s linear infinite 0s;
+    -moz-animation: slideShow 15s linear infinite 0s;
+    -webkit-animation: slideShow 15s linear infinite 0s;
+}
+
+
+
+.pic-1 {
+    opacity: 1;
+    background: url(http://cdn.morguefile.com/imageData/public/files/g/GaborfromHungary/06/p/74fea178af5c36b5303625ffeacd8454.jpg) no-repeat center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.pic-2 {
+    animation-delay: 5s;
+    -o-animation-delay: 5s;
+    -moz--animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+    background: url(http://cdn.morguefile.com/imageData/public/files/k/Koan/06/p/ea989990a29bb73aa78db9f8322b5631.jpg) no-repeat center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.pic-3 {
+    animation-delay: 15s;
+    -o-animation-delay: 15s;
+    -moz--animation-delay: 15s;
+    -webkit-animation-delay: 15s;
+    background: url(http://cdn.morguefile.com/imageData/public/files/t/TSmythe/06/p/74820906fce25071550b74b6773a0e19.jpg) no-repeat center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* keyframes*/
+
+@keyframes
+slideShow {  0% {
+    opacity: 0;
+    transform:scale(1);
+    -ms-transform:scale(1);
+}
+    5% {
+        opacity: 1
+    }
+    25% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+        transform:scale(1.1);
+        -ms-transform:scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        transform:scale(1);
+        -ms-transformm:scale(1);
+    }
+}
+@-o-keyframes
+slideShow {  0% {
+    opacity: 0;
+    -o-transform:scale(1);
+}
+    5% {
+        opacity: 1
+    }
+    25% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+        -o-transform:scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        -o-transformm:scale(1);
+    }
+}
+@-moz-keyframes
+slideShow {  0% {
+    opacity: 0;
+    -moz-transform:scale(1);
+}
+    5% {
+        opacity: 1
+    }
+    25% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+        -moz-transform:scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        -moz-transformm:scale(1);
+    }
+}
+@-webkit-keyframes
+slideShow {  0% {
+    opacity: 0;
+    -webkit-transform:scale(1);
+}
+    5% {
+        opacity: 1
+    }
+    25% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+        -webkit-transform:scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transformm:scale(1);
+    }
+}

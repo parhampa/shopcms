@@ -1,0 +1,54 @@
+<?php
+session_start();
+include("../config.php");
+if(isset($_POST['user'])==false)
+{
+	die();
+}
+if(isset($_POST['pass'])==false)
+{
+	die();
+}
+if($_POST['user']=="")
+{
+	?>
+	<script>
+		alert("لطفا نام کاربری را وارد نمایید...");
+		location.replace("login.php");
+	</script>
+	<?php
+}
+if($_POST['pass']=="")
+{
+	?>
+	<script>
+		alert("لطفا نام کاربری را وارد نمایید...");
+		location.replace("login.php");
+	</script>
+	<?php
+}
+$user=sqlstr($_POST['user']);
+$pass=sqlstr($_POST['pass']);
+$sql="select * from bazaryab where `user`='$user' and `pass`='$pass'";
+$res=mysqli_query($connection,$sql);
+if(mysqli_num_rows($res)>0)
+{
+	$_SESSION['user']=$user;
+	$_SESSION['pass']=$pass;
+	$_SESSION['bazaryab']=true;
+	?>
+	<script>
+		location.replace("showmyusers.php");
+	</script>
+	<?php
+}
+else
+{
+	?>
+	<script>
+		alert("نام کاربری و یا کلمه عبور اشتباه می باشد...");
+		location.replace("login.php");
+	</script>
+	<?php
+}
+?>

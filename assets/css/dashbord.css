@@ -1,0 +1,75 @@
+
+.navbar-brand img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.navbar .navbar-nav li > a{
+    font-family: "B Yekan" !important;
+}
+
+.navbar .menu-title{
+    font-family: "B Yekan" !important;
+}
+
+.user-area .user-menu .nav-link {
+    font-family: "B Yekan" ;
+    text-align: right;
+}
+
+form{
+    font-family: "B Yekan";
+}
+
+
+.formadmin{
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+.btn-form{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.modal-body h4{
+    color: red;
+}
+.modal-btn i{
+    margin-left: 5px;
+}
+
+.table-margin{
+    margin-top: 40px;
+}
+.color-block{
+    color: black;
+}
+
+.color-block i{
+    color: black;
+}
+
+/*       serach tabel                   */
+
+.results tr[visible='false'],
+.no-result{
+    display:none;
+}
+
+.results tr[visible='true']{
+    display:table-row;
+}
+
+/*    tabele     comment     */
+
+.comment-content{
+    width: 200px;height: 70px;overflow: hidden;text-align: justify;display: block;
+}
+
+.color-blue{
+    color: #00acc1 !important;
+}
+
